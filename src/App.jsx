@@ -1,13 +1,13 @@
+import './App.css'
 import { Routes, Route } from 'react-router-dom'
 import Footer from './component/footer'
 import Header from './component/header'
 import HomePage from './pages/home'
 import Login from './pages/login'
 import Register from './pages/register'
-import DoctorProfile from './pages/doctorProfile'
 import ResetPassword from './pages/resetPassword'
-import NotFound from './pages/notFound'
 import ForgotPassword from './pages/forgotPassword'
+import NotFound from './pages/notFound'
 
 function App() {
   return (
