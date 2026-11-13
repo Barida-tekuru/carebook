@@ -1,9 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import AuthLayout from './layouts/AuthLayout'
 
 function Register() {
   return (
-    <main>
+    <AuthLayout 
+    title={'See the right doctor, without the waiting room'}
+    text={'Book a real open slot, pay with Paystack and keep your visit notes in one place.'}>
       <form action="">
         <h1>Creat your account</h1>
         <p className="muted">Choose how you'ii use CareBook</p>
@@ -58,7 +61,7 @@ function Register() {
           <button className="btn btn-block">Create account</button>
           <p className="small center">Already have an account? <Link to='/login'>Log in</Link></p>
       </form>
-    </main>
+    </AuthLayout>
   )
 }
 
